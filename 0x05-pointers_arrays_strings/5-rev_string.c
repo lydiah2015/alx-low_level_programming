@@ -1,32 +1,30 @@
-#include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
- * rev_string-str length
- * @str:first char
- *
- * Return: return string length
- *
- */
+ *  * rev_string- prints out a string as given in rev
+ *   *@s : parameter passed*
+ *    * Return: Always a (Success)
+ *     */
 
-void rev_string(char *str)
+void rev_string(char *s)
 {
-int n = 0, j;
-int i = 0, c;
-char t;
-while (str[n] != '\0')
-{
-n++;
-}
-j = n - 1;
-c = n/2;
-while (i < c)
-{
-t = str[j];
-str[j] = str[i];
-str[i] = t;
-j--;
-i++;
-}
+		int count = 0;
 
-_putchar('\n');
+			/** printf("p is %d\n", p); */
+
+			while (!(count == 1))
+					{
+								int a, p;
+
+										p = strlen(s);
+												char str = [];
+
+														for (a = p; a >= 0; a--)
+																	{
+																					str = s[a];
+																							}
+																count ++;
+																	}
+
 }
